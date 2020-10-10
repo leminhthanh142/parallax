@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Zen Garden project 2</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/e01cfc4369.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato:ital,wght@1,300;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="parallax-section">
+    <div class="wrapper">
+        <h1>CSS Zen Garden</h1>
+        <p>The Beauty Of CSS Design</p>
+        <div class="parallax parallax-layer-0" data-role="">
+            <img src="public/images/layer_0.png">
+        </div>
+        <div class="parallax parallax-layer-1" data-role="">
+            <img src="public/images/layer_1.png">
+        </div>
+        <div class="parallax parallax-layer-2" data-role="">
+            <img src="public/images/layer_2.png">
+        </div>
+        <div class="parallax parallax-layer-3" data-role="">
+            <img src="public/images/layer_3.png">
+        </div>
+        <div class="parallax parallax-layer-4" data-role="">
+            <img src="public/images/layer_4.png">
+        </div>
+        <div class="parallax parallax-layer-5" data-role="">
+            <img src="public/images/layer_5.png">
+        </div>
+        <div class="parallax parallax-layer-6" data-role="">
+            <img src="public/images/layer_6.png">
+        </div>
+        <div class="parallax-cover" id="parallax-cover">
+            <div class="scroll">Scroll Down</div>
+            <div class="line-container">
+                <div class="line">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="main-nav" id="main-nav">
+        <ul>
+            <li><a href="#the-road">The Road To Enlightenment</a></li>
+            <li><a href="#what-about">SO WHAT IS THIS ABOUT?</a></li>
+            <li><a href="#participation">Participation</a></li>
+            <li><a href="#benefits">Benefits</a></li>
+            <li><a href="#requirement">REQUIREMENTS</a></li>
+        </ul>
+    </div>
+    <label for="toggle">
+        <input type="checkbox" id="toggle">
+        <div class="bar" onclick="toggleMainNav()">
+            <div class="bar-1"></div>
+            <div class="bar-2"></div>
+            <div class="bar-3"></div>
+        </div>
+    </label>
+</section>
+<section>
+    <div class="box demonstration">
+        <div>A demonstration of what can be accomplished through CSS-based design.
+            <br>Select any style sheet from the list to load it into this page.
+        </div>
+        <div>
+            Download the example with <span>HTML File</span> and <span>CSS File</span>
+        </div>
+        <!--                <i class="fas fa-download"><a href="#">HTML File</a></i>-->
+        <!--                <i class="fas fa-download"><a href="#">CSS File</a></i>-->
+    </div>
+</section>
+<section class="content">
+    <div class="main-content box">
+        <div class="the-road" id="the-road">
+            <h3>The Road To Enlightenment</h3>
+            <div>
+                Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible DOMs,
+                broken CSS support, and abandoned browsers.
+            </div>
+            <div>
+                We must clear the mind of the past. Web enlightenment has been achieved thanks to the tireless efforts of folk
+                like the W3C, WASP, and the major browser creators.
+            </div>
+            <div>
+                The CSS Zen Garden invites you to relax and meditate on the important lessons of the masters. Begin to see with clarity.
+                Learn to use the time-honored techniques in new and invigorating fashion. Become one with the web.
+            </div>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    <div class="main-content box">
+        <div class="what-about" id="what-about">
+            <h3>SO WHAT IS THIS ABOUT?</h3>
+            <div>
+                There is a continuing need to show the power of CSS.
+                The Zen Garden aims to excite, inspire, and encourage participation.
+                To begin, view some of the existing designs in the list.
+                Clicking on any one will load the style sheet into this very page.
+                The HTML remains the same, the only thing that has changed is the external CSS file. Yes, really.
+            </div>
+            <div>
+                CSS allows complete and total control over the style of a hypertext document.
+                The only way this can be illustrated in a way that gets people excited is by demonstrating what it can truly be,
+                once the reins are placed in the hands of those able to create beauty from structure. Designers and coders alike
+                have contributed to the beauty of the web; we can always push it further.
+            </div>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    <div class="main-content box">
+        <div class="participation" id="participation">
+            <h3>Participation</h3>
+            <div>
+                Strong visual design has always been our focus. You are modifying this page,
+                so strong CSS skills are necessary too, but the example files are commented well enough
+                that even CSS novices can use them as starting points. Please see the <span>CSS Resource Guide</span> for
+                advanced tutorials and tips on working with CSS.
+            </div>
+            <div>
+                You may modify the style sheet in any way you wish, but not the HTML. This may seem daunting at first if
+                you’ve never worked this way before, but follow the listed links to learn more, and use the sample files as a guide.
+            </div>
+            <div>
+                Download the sample <span>HTML</span> and <span>CSS</span> to work on a copy locally. Once you have completed your masterpiece
+                (and please, don’t submit half-finished work) upload your CSS file to a web server under your control.
+                <span>Send</span> us a link to an archive of that file and all associated assets, and if we choose to use it we will download
+                it and place it on our server.
+            </div>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    <div class="main-content box">
+        <div class="benefits" id="benefits">
+            <h3>Benefits</h3>
+            <div>
+                Why participate? For recognition, inspiration, and a resource we can all refer to showing people how amazing CSS really can be.
+                This site serves as equal parts inspiration for those working on the web today, learning tool for those who will
+                be tomorrow, and gallery of future techniques we can all look forward to.
+            </div>
+        </div>
+    </div>
+    <div class="main-content box">
+        <div class="requirement" id="requirement">
+            <h3>REQUIREMENTS</h3>
+            <div>
+                Where possible, we would like to see mostly CSS 1 & 2 usage. CSS 3 & 4 should be limited to widely-supported elements only,
+                or strong fallbacks should be provided. The CSS Zen Garden is about functional, practical CSS and not the latest bleeding-edge
+                tricks viewable by 2% of the browsing public. The only real requirement we have is that your CSS validates.
+            </div>
+            <div>
+                Luckily, designing this way shows how well various browsers have implemented CSS by now. When sticking to the guidelines you
+                should see fairly consistent results across most modern browsers. Due to the sheer number of user agents on the web these days
+                — especially when you factor in mobile — pixel-perfect layouts may not be possible across every platform.
+                That’s okay, but do test in as many as you can. Your design should work in at least IE9+ and the latest Chrome,
+                Firefox, iOS and Android browsers (run by over 90% of the population).
+            </div>
+            <div>
+                We ask that you submit original artwork. Please respect copyright laws. Please keep objectionable material to a minimum,
+                and try to incorporate unique and interesting visual themes to your work. We’re well past the point of needing another
+                garden-related design.
+            </div>
+            <div>
+                This is a learning exercise as well as a demonstration. You retain full copyright on your graphics (with limited exceptions,
+                see <span>submission guidelines</span>), but we ask you release your CSS under a Creative Commons license identical to the
+                <span>one on this site</span>
+                so that others may learn from your work.
+            </div>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="contact" id="contact">
+        <form class="container" action="#">
+            <div class="input-box">
+                <input id="user" type="text" name="" required="">
+                <span>User name</span>
+            </div>
+            <div class="input-box">
+                <input id="email" type="text" name="" required="">
+                <span>Email</span>
+            </div>
+            <div class="input-box">
+                <textarea id="messages" required=""></textarea>
+                <span>Type your message...</span>
+            </div>
+            <div class="input-box-btn">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</section>
+<footer class="box">
+    <div>
+        <p style="text-align: center" class="copy-right-text">Copy right &copy; by Thanh Le</p>
+    </div>
+</footer>
+</body>
+<script src="script.js"></script>
+</html>
